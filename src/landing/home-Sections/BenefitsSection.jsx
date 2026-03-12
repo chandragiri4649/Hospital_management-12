@@ -8,13 +8,6 @@ const BenefitsSection = () => {
     <>
       <section className="py-16 md:py-20 bg-gradient-to-br from-blue-50/30 via-white to-cyan-50/30 relative overflow-hidden">
         {/* Animated Background Elements */}
-        {/* <div className="absolute top-20 left-5% opacity-10 animate-pulse">
-          <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-400 to-cyan-400"></div>
-        </div>
-        <div className="absolute bottom-20 right-5% opacity-10 animate-bounce delay-1000">
-          <div className="w-24 h-24 rounded-full bg-gradient-to-r from-emerald-400 to-teal-400"></div>
-        </div> */}
-
         <div className="max-w-7xl mx-auto px-4 relative z-10">
           {/* Animated Header */}
           <div className="text-center max-w-3xl mx-auto mb-16">

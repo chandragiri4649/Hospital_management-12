@@ -18,13 +18,6 @@ import {
   Tooltip,
 } from 'recharts'
 
-/**
- * Inline AppointmentChart component
- * - Placed inside this file so no separate chart file is required.
- * - Accepts `data` prop in two shapes:
- *    1) [{ label: '00:00', newPatients: 30, oldPatients: 18 }, ...]  (preferred)
- *    2) [{ label: 'Mon', value: 12 }, ...] -> will synthesize two series deterministically
- */
 const AppointmentChart = ({ data = [] }) => {
   const normalized = React.useMemo(() => {
     if (!data || !data.length) return []

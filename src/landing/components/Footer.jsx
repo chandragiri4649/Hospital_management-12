@@ -183,26 +183,6 @@ const Footer = () => {
                 <li><Link to="#" className="text-amber-600 hover:text-amber-700 transition duration-300">Billing & Accounts</Link></li>
               </ul>
             </div>
-{/* 
-            <div>
-              <h3 className="font-semibold text-lg mb-3 text-gray-800 border-b pb-2">Company</h3>
-              <ul className="space-y-2">
-                <li><Link to="/about" className="text-amber-600 hover:text-amber-700 transition duration-300">About Us</Link></li>
-                <li><Link to="/careers" className="text-amber-600 hover:text-amber-700 transition duration-300">Careers</Link></li>
-                <li><Link to="/blog" className="text-amber-600 hover:text-amber-700 transition duration-300">Blog</Link></li>
-                <li><Link to="/testimonials" className="text-amber-600 hover:text-amber-700 transition duration-300">Testimonials</Link></li>
-              </ul>
-            </div> */}
-{/* 
-            <div>
-              <h3 className="font-semibold text-lg mb-3 text-gray-800 border-b pb-2">Resources</h3>
-              <ul className="space-y-2">
-                <li><Link to="/faq" className="text-amber-600 hover:text-amber-700 transition duration-300">FAQ</Link></li>
-                <li><Link to="/support" className="text-amber-600 hover:text-amber-700 transition duration-300">Support Center</Link></li>
-                <li><Link to="/documentation" className="text-amber-600 hover:text-amber-700 transition duration-300">Documentation</Link></li>
-                <li><Link to="/api-docs" className="text-amber-600 hover:text-amber-700 transition duration-300">API Documentation</Link></li>
-              </ul>
-            </div> */}
           </div>
         </div>
       </Modal>
