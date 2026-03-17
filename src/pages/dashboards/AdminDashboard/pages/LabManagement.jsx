@@ -26,7 +26,7 @@ const LabManagement = () => {
     setLoading(true)
     setTimeout(() => {
       setLabTests([
-        { id: 'LAB-6001', patient: 'Ravi Kumar', testType: 'Blood Test', result: 'Normal', date: '2023-10-10', reportFile: 'report_1.pdf', status: 'Completed', doctor: 'Dr. Meena Rao', priority: 'Normal', sampleType: 'Blood' },
+        { id: 'LAB-6001', patient: 'Ravi ', testType: 'Blood Test', result: 'Normal', date: '2023-10-10', reportFile: 'report_1.pdf', status: 'Completed', doctor: 'Dr. Meena Rao', priority: 'Normal', sampleType: 'Blood' },
         { id: 'LAB-6002', patient: 'Anita Sharma', testType: 'MRI Scan', result: 'Normal', date: '2023-10-08', reportFile: 'report_2.pdf', status: 'Completed', doctor: 'Dr. Sharma', priority: 'Normal', sampleType: 'NA' },
         { id: 'LAB-6003', patient: 'Suresh Patel', testType: 'X-Ray', result: 'Fracture Detected', date: '2023-10-12', reportFile: 'report_3.pdf', status: 'Processing', doctor: 'Dr. Menon', priority: 'Urgent', sampleType: 'NA' },
         { id: 'LAB-6004', patient: 'Priya Singh', testType: 'CT Scan', result: 'Pending', date: '2023-10-13', reportFile: '', status: 'Pending', doctor: 'Dr. Desai', priority: 'Normal', sampleType: 'NA' }
